@@ -1,8 +1,8 @@
 {
   "channels": {
     "Argentina": ["https://m3u.cl/lista/AR.m3u"],
-    "Chile": ["https://m3u.cl/lista/CL.m3u"],   
-    "México": ["https://m3u.cl/lista/MX.m3u"],    
+    "Chile": ["https://m3u.cl/lista/CL.m3u"],
+    "México": ["https://m3u.cl/lista/MX.m3u"],
     "Bolivia": ["https://m3u.cl/lista/BO.m3u"],
     "Colombia": ["https://m3u.cl/lista/CO.m3u"],
     "Perú": ["https://m3u.cl/lista/PE.m3u"],
@@ -12,21 +12,5 @@
       "https://m3u.cl/lista/ES.m3u"
     ],
     "Venezuela": ["https://m3u.cl/lista/VE.m3u"]
-  },
-  "runtime": {
-    "base_url": "https://api-ott.runtime.tv",
-    "config_url": "/getconfiguration",
-    "objects_url": "/getreferencedobjects",
-    "player_url": "/embeddedVideoPlayer",
-    "parent_id": "5199"
-  },
-  "pluto": {
-    "live_channels_url": "https://service-channels.clusters.pluto.tv/v2/guide/channels",
-    "live_categories_url": "https://service-channels.clusters.pluto.tv/v2/guide/categories",
-    "vod_url": "https://api.pluto.tv/v3/vod/categories",
-    "slug_base_url": "https://api.pluto.tv/v3/vod/slugs"
-  },
-  "canela": {
-    "live_url": "https://af1c1onados.vercel.app/TV.FREE.CanelaTV.w3u"
   }
 }

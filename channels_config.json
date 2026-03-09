@@ -1,5 +1,20 @@
 {
   "aliases": {
+    "k_channels": "Y2hhbm5lbHM=",
+    "k_runtime": "cnVudGltZQ==",
+    "k_pluto": "cGx1dG8=",
+    "k_canela": "Y2FuZWxh",
+    "k_base_url": "YmFzZV91cmw=",
+    "k_config_url": "Y29uZmlnX3VybA==",
+    "k_objects_url": "b2JqZWN0c191cmw=",
+    "k_player_url": "cGxheWVyX3VybA==",
+    "k_parent_id": "cGFyZW50X2lk",
+    "k_live_channels_url": "bGl2ZV9jaGFubmVsc191cmw=",
+    "k_live_categories_url": "bGl2ZV9jYXRlZ29yaWVzX3VybA==",
+    "k_vod_url": "dm9kX3VybA==",
+    "k_slug_base_url": "c2x1Z19iYXNlX3VybA==",
+    "k_boot_url": "Ym9vdF91cmw=",
+    "k_live_url": "bGl2ZV91cmw=",
     "rt_base": "aHR0cHM6Ly9hcGktb3R0LnJ1bnRpbWUudHY=",
     "rt_cfg": "L2dldGNvbmZpZ3VyYXRpb24=",
     "rt_obj": "L2dldHJlZmVyZW5jZWRvYmplY3Rz",
@@ -11,7 +26,7 @@
     "pl_slug": "aHR0cHM6Ly9hcGkucGx1dG8udHYvdjMvdm9kL3NsdWdz",
     "pl_boot": "aHR0cHM6Ly9ib290LnBsdXRvLnR2L3Y0L3N0YXJ0"
   },
-  "channels": {
+  "alias:k_channels": {
     "Argentina": ["https://m3u.cl/lista/AR.m3u"],
     "Chile": ["https://m3u.cl/lista/CL.m3u"],   
     "México": ["https://m3u.cl/lista/MX.m3u"],    
@@ -25,21 +40,21 @@
     ],
     "Venezuela": ["https://m3u.cl/lista/VE.m3u"]
   },
-  "runtime": {
-    "base_url": "alias:rt_base",
-    "config_url": "alias:rt_cfg",
-    "objects_url": "alias:rt_obj",
-    "player_url": "alias:rt_player",
-    "parent_id": "alias:rt_parent"
+  "alias:k_runtime": {
+    "alias:k_base_url": "alias:rt_base",
+    "alias:k_config_url": "alias:rt_cfg",
+    "alias:k_objects_url": "alias:rt_obj",
+    "alias:k_player_url": "alias:rt_player",
+    "alias:k_parent_id": "alias:rt_parent"
   },
-  "pluto": {
-    "live_channels_url": "alias:pl_live_ch",
-    "live_categories_url": "alias:pl_live_cat",
-    "vod_url": "alias:pl_vod",
-    "slug_base_url": "alias:pl_slug",
-    "boot_url": "alias:pl_boot"
+  "alias:k_pluto": {
+    "alias:k_live_channels_url": "alias:pl_live_ch",
+    "alias:k_live_categories_url": "alias:pl_live_cat",
+    "alias:k_vod_url": "alias:pl_vod",
+    "alias:k_slug_base_url": "alias:pl_slug",
+    "alias:k_boot_url": "alias:pl_boot"
   },
-  "canela": {
-    "live_url": "https://af1c1onados.vercel.app/TV.FREE.CanelaTV.w3u"
+  "alias:k_canela": {
+    "alias:k_live_url": "https://af1c1onados.vercel.app/TV.FREE.CanelaTV.w3u"
   }
 }

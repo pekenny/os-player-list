@@ -1,8 +1,20 @@
 {
+  "aliases": {
+    "rt_base": "aHR0cHM6Ly9hcGktb3R0LnJ1bnRpbWUudHY=",
+    "rt_cfg": "L2dldGNvbmZpZ3VyYXRpb24=",
+    "rt_obj": "L2dldHJlZmVyZW5jZWRvYmplY3Rz",
+    "rt_player": "L2VtYmVkZGVkVmlkZW9QbGF5ZXI=",
+    "rt_parent": "NTE5OQ==",
+    "pl_live_ch": "aHR0cHM6Ly9zZXJ2aWNlLWNoYW5uZWxzLmNsdXN0ZXJzLnBsdXRvLnR2L3YyL2d1aWRlL2NoYW5uZWxz",
+    "pl_live_cat": "aHR0cHM6Ly9zZXJ2aWNlLWNoYW5uZWxzLmNsdXN0ZXJzLnBsdXRvLnR2L3YyL2d1aWRlL2NhdGVnb3JpZXM=",
+    "pl_vod": "aHR0cHM6Ly9hcGkucGx1dG8udHYvdjMvdm9kL2NhdGVnb3JpZXM=",
+    "pl_slug": "aHR0cHM6Ly9hcGkucGx1dG8udHYvdjMvdm9kL3NsdWdz",
+    "pl_boot": "aHR0cHM6Ly9ib290LnBsdXRvLnR2L3Y0L3N0YXJ0"
+  },
   "channels": {
     "Argentina": ["https://m3u.cl/lista/AR.m3u"],
-    "Chile": ["https://m3u.cl/lista/CL.m3u"],
-    "México": ["https://m3u.cl/lista/MX.m3u"],
+    "Chile": ["https://m3u.cl/lista/CL.m3u"],   
+    "México": ["https://m3u.cl/lista/MX.m3u"],    
     "Bolivia": ["https://m3u.cl/lista/BO.m3u"],
     "Colombia": ["https://m3u.cl/lista/CO.m3u"],
     "Perú": ["https://m3u.cl/lista/PE.m3u"],
@@ -12,5 +24,22 @@
       "https://m3u.cl/lista/ES.m3u"
     ],
     "Venezuela": ["https://m3u.cl/lista/VE.m3u"]
+  },
+  "runtime": {
+    "base_url": "alias:rt_base",
+    "config_url": "alias:rt_cfg",
+    "objects_url": "alias:rt_obj",
+    "player_url": "alias:rt_player",
+    "parent_id": "alias:rt_parent"
+  },
+  "pluto": {
+    "live_channels_url": "alias:pl_live_ch",
+    "live_categories_url": "alias:pl_live_cat",
+    "vod_url": "alias:pl_vod",
+    "slug_base_url": "alias:pl_slug",
+    "boot_url": "alias:pl_boot"
+  },
+  "canela": {
+    "live_url": "https://af1c1onados.vercel.app/TV.FREE.CanelaTV.w3u"
   }
 }
